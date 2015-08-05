@@ -1,0 +1,322 @@
+*{padding:0px; margin:0px auto;}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #F5F4F4;
+  
+}
+.header {
+  height: 453px;
+}
+
+
+.wrapper {
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (min-width:1200px){
+
+  .wrapper{
+   width: 1300px;
+   margin: 0 auto;
+ }
+
+.logo {
+  float: left;
+  margin-top: 19px;
+  margin-left: 24px;
+}
+
+
+.logo img {
+  height: 43px;
+  width: 110px;
+}
+
+.header ul#nav-bar {
+  float: right;
+  margin-top: 42px;
+  list-style-type: none;
+}
+
+ul#nav-bar li {
+  display: inline;
+  padding: 20px;
+}
+
+ ul#nav-bar li a {
+  text-decoration: none;
+  color:#000;
+ 
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ ul#nav-bar li a:hover{
+  color:blue;
+
+}
+
+
+#slider img {
+  width: 100%;
+}
+
+#slider img {
+  width: 100%;
+  height: 371px;
+}
+
+#slider {
+  float: left;
+  margin-top: 15px;
+}
+
+
+.first-container {
+  float: left;
+  width: 100%;
+  height: 431px;
+}
+.cont-title {
+  float: left;
+  width: 826px;
+  margin-left: 240px;
+  margin-top: 50px;
+  text-align: center;
+  clear: both;
+}
+
+.cont-title h1 {
+  font-family: -webkit-body;
+  letter-spacing: 2px;
+}
+
+.cont-title hr {
+  width: 152px;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+.first-cont-text {
+  float: left;
+  margin-top: 26px;
+  background-image: url(../index files/image-1.jpg);
+}
+
+.cont-text-1 {
+  float: left;
+  width: 260px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 25px;
+
+}
+
+
+.cont-text-1 p {
+  margin-top: 20px;
+}
+
+
+.cont-text-2 {
+  float: left;
+  width: 260px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+ .cont-text-2 p {
+  margin-top: 20px;
+}
+
+
+.cont-text-3 {
+  float: left;
+  width: 260px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 25px;
+}
+.cont-text-3 p {
+  margin-top: 20px;
+}
+
+
+.cont-text-4 {
+  float: left;
+  width: 260px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.cont-text-4 p {
+  margin-top: 20px;
+}
+
+.second-container {
+    float: left;
+    width: 100%;
+    height: 405;
+    text-align: center;
+}
+
+
+
+.second-cont-text {
+    float: left;
+    margin-top: 82px;
+    width:100%;
+}
+
+.second-cont-text-1 {
+    float: left;
+    width: 300px;
+    position: relative;
+    
+}
+
+.second-cont-text-1 img {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/Base.png);
+    background-size: cover;
+
+}
+
+.second-cont-text-1 p:nth-child(odd) {
+    position: absolute;
+    top: 36px;
+    left: 132px;
+    font-size: 25px;
+}
+
+.second-cont-text-2 {
+    float: left;
+    width: 300px;
+    position: relative;s
+}
+
+.second-cont-text-2 img {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/Base.png);
+    background-size: cover;
+
+}
+
+.second-cont-text-2 p:nth-child(odd) {
+    position: absolute;
+    top: 36px;
+    left: 132px;
+    font-size: 25px;
+}
+.second-cont-text-3 {
+    float: left;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.second-cont-text-3 img {
+   width: 100px;
+    height: 100px;
+    background-image: url(../images/Base.png);
+    background-size: cover;
+
+}
+.second-cont-text-3 p:nth-child(odd) {
+    position: absolute;
+    top: 36px;
+    left: 132px;
+    font-size: 25px;
+}
+
+.second-cont-text-4 {
+    float: left;
+    width: 300px;
+    position: relative;
+}
+
+.second-cont-text-4 img {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/Base.png);
+    background-size: cover;
+
+}
+
+.second-cont-text-4 p:nth-child(odd) {
+    position: absolute;
+    top: 36px;
+    left: 132px;
+    font-size: 25px;
+}
+
+
+.third-cont-text {
+    float: left;
+    width: 100%;
+    margin-top: 28px;
+}
+.third-cont-text-1 {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+.third-cont-text-2 {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+.third-cont-text-3 {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+
+.third-cont-text-4 {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+ ul#link li {
+    list-style-type: none;
+    display: inline;
+    padding: 19px;
+  
+}
+.cont-title ul {
+   
+    margin-top: 20px;
+
+}
+.cont-title ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 8px 33px;
+    background-color: #ebc985;
+    border-radius: 5px;
+}
+
+.cont-title ul li a{
+
+  text-decoration: none;
+  color: #000;
+
+}
+
+.cont-title ul a:hover{
+  color: #fff;
+
+}
